@@ -24,6 +24,9 @@ setTimeout(() => {
       document.body.style.backgroundColor = 'green';
       setTimeout(() => {
         document.body.style.backgroundColor = 'blue';
+        setTimeout(() => {
+          document.body.style.backgroundColor = 'white';
+        }, 1500);
       }, 1500);
     }, 1500);
   }, 1500);
